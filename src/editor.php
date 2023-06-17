@@ -183,7 +183,7 @@ function media_selector_print_scripts()
 			</div>
 		</div> -->
 	<div id="my-content-id" style="display:none;">
-		<form class="dialogwrapper dillay" id=fuhoform action=/wp-content/plugins/ncct/function/edit.php method="post">
+		<form class="dialogwrapper dillay" id=fuhoform action=/wp-content/plugins/fgedit/function/edit.php method="post">
 			<br>
 			<?php
 																																																			attatchmentReplacement("https://loopcentral.vn/uploads/thumbnail/217038a96b8e7e02aeadd633832d4fd8.jpg");
@@ -245,7 +245,7 @@ function media_selector_print_scripts()
 			etarc.placeholder = "Nội dung";
 			delbut.style.display = "none";
 			updbut.innerHTML = "Thêm";
-			form.action = "/wp-content/plugins/ncct/function/add.php";
+			form.action = "/wp-content/plugins/fgedit/function/add.php";
 			diagprim.click(); // this sus
 		}
 
@@ -265,7 +265,7 @@ function media_selector_print_scripts()
 			etart.value = dtit.innerHTML;
 			etarc.value = dcont.innerHTML;
 			etid.value = i;
-			form.action = "/wp-content/plugins/ncct/function/edit.php";
+			form.action = "/wp-content/plugins/fgedit/function/edit.php";
 			diagprim.click()
 		}
 	</script>
